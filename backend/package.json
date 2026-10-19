@@ -1,0 +1,33 @@
+{
+  "name": "activity-refund-manager-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "node --env-file=.env --watch src/server.js",
+    "start": "node --env-file=.env src/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "node --test",
+    "db:init": "node --env-file=.env scripts/init-db.js",
+    "demo:seed": "node --env-file=.env scripts/seed-demo.js",
+    "test:smoke": "node --env-file=.env scripts/smoke.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.5",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.7.4"
+  },
+  "license": "UNLICENSED"
+}

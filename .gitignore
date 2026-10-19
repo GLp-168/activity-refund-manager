@@ -1,0 +1,26 @@
+node_modules/
+dist/
+dist-ssr/
+coverage/
+playwright-report/
+test-results/
+.eslintcache
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+*.db
+*.sqlite*
+*.pem
+*.key
+*.p12
+*.pfx
+artifacts/
+.verification/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Legacy local-only helper; its .agentdocs input is absent.
+scripts/validate-agentdocs.ps1
