@@ -114,4 +114,5 @@ npm run test:smoke --prefix backend
 - 默认 API 仅监听 `127.0.0.1`；CORS 默认仅允许 `http://localhost:5173`。
 - 配置示例、源码、SQL 结构与锁文件可提交；真实环境文件、依赖目录、构建产物和验证数据由根 `.gitignore` 排除。
 - 本仓库提供演示源码，验证范围及未完成事项见 `docs/PRE_UPLOAD_REVIEW.md`。
-- 开源许可证尚未选定，当前标记为 `UNLICENSED`，见 [NOTICE.md](NOTICE.md)。
+- 本项目采用 **GNU GPL 第 3 版（GPL-3.0-only）**，完整条款见 [LICENSE](LICENSE)，版权、第三方依赖与修改说明见 [NOTICE.md](NOTICE.md)。
+- 再分发或修改发布时须遵守 GPL 的署名、许可保留及对应源码提供要求；软件不提供担保，功能限制见 [LIMITATIONS.md](docs/LIMITATIONS.md)。
