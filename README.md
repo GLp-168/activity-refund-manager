@@ -20,11 +20,11 @@ database/schema.sql  建表结构，不含业务数据
 docs/                功能边界及整理验证报告
 ```
 
-本地父目录 `vue` 保留原名，避免破坏现有路径；计划使用的公开仓库名为 `activity-refund-manager`。
+本地父目录 `vue` 保留原名，避免破坏现有路径；公开仓库为 [GLp-168/activity-refund-manager](https://github.com/GLp-168/activity-refund-manager)。
 
 ## 本地启动
 
-需要 Node.js 22.12+（或 24+）、npm、MySQL 8。以下命令在项目根目录执行。
+需要 Node.js 22.x（至少 22.12）或 24 及以上版本、npm、MySQL 8。以下命令在项目根目录执行。
 
 ### 1. 安装依赖
 
